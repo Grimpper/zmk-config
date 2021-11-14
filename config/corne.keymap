@@ -81,7 +81,7 @@
                         bindings = <
    &kp BSLH        &kp FSLH  &kp N7 &kp N8 &kp N9 &kp KP_MULTIPLY                &kp AMPS         &kp LPAR &kp RPAR  &kp EXCL         &khkp RALT N1   &pc _ 167       
    &kp PRCNT       &kp MINUS &kp N4 &kp N5 &kp N6 &kp KP_PLUS                    &kp PIPE         &kp LBRC &kp RBRC  &kp QMARK        &khkp RALT FSLH &kp RSHFT        
-   &am LCTRL EQUAL &kp N0    &kp N1 &kp N2 &kp N3 &kp KP_DOT                     &kkp CARET SPACE &kp LBKT &kp RBKT  &kkp TILDE SPACE &pc _ 250       &am RCTRL KP_NUM    
+   &am LCTRL EQUAL &kp N0    &kp N1 &kp N2 &kp N3 &kp DOT                     &kkp CARET SPACE &kp LBKT &kp RBKT  &kkp TILDE SPACE &pc _ 250          &kp RCTRL    
    &trans          &trans              &trans                                             &trans           &trans             &trans
                         >;
                 };
