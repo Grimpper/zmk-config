@@ -81,8 +81,8 @@
                         bindings = <
    &kp BSLH        &kp FSLH  &kp N7 &kp N8 &kp N9 &kp KP_MULTIPLY                &kp AMPS         &kp LPAR &kp RPAR  &kp EXCL         &khkp RALT N1   &trans       
    &kp PRCNT       &kp MINUS &kp N4 &kp N5 &kp N6 &kp KP_PLUS                    &kp PIPE         &kp LBRC &kp RBRC  &kp QMARK        &khkp RALT FSLH &kp RSHFT        
-   &am LCTRL EQUAL &kp N0    &kp N1 &kp N2 &kp N3 &kp DOT                     &kkp CARET SPACE &kp LBKT &kp RBKT  &kkp TILDE SPACE &pc _ 250          &kp RCTRL    
-   &trans          &trans              &trans                                             &trans           &trans             &trans
+   &am LCTRL EQUAL &kp N0    &kp N1 &kp N2 &kp N3 &kp DOT                        &kkp CARET SPACE &kp LBKT &kp RBKT  &kkp TILDE SPACE &pc   _ 250     &kp RCTRL    
+   &trans          &trans              &trans                                    &trans           &trans             &trans
                         >;
                 };
 
@@ -93,9 +93,9 @@
 // |      |     |     |     |     |     |   |     |     |     |     |     |      |
 //                    |     |     |     |   |     |     |     |
                         bindings = <
-   &trans    &kp PAGE_UP &kp HOME  &kp UP    &kp END   &kp PAGE_DOWN      &kp PAGE_UP &kp HOME  &kp UP    &kp END   &kp PAGE_DOWN &trans
-   &trans    &kp PSCRN   &kp LEFT  &kp DOWN  &kp RIGHT &trans             &kp PSCRN   &kp LEFT  &kp DOWN  &kp RIGHT &trans        &trans
-   &trans    &trans      &trans    &kp BSPC  &kp DEL   &trans             &trans      &trans    &trans    &trans    &trans        &trans
+   &trans    &kp PAGE_UP &kp HOME  &kp UP    &kp END   &kp PAGE_DOWN      &kp PAGE_UP &kp HOME  &kp UP    &kp END   &kp PAGE_DOWN    &trans
+   &trans    &kp PSCRN   &kp LEFT  &kp DOWN  &kp RIGHT &trans             &kp PSCRN   &kp LEFT  &kp DOWN  &kp RIGHT &kkp GRAVE SPACE &trans
+   &trans    &trans      &trans    &kp BSPC  &kp DEL   &trans             &trans      &trans    &trans    &trans    &trans           &trans
    &trans                &trans              &trans                       &trans                &kp DEL             &trans
                         >;
                 };
