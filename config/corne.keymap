@@ -79,10 +79,10 @@
 // |      |     |  ~  |  [  |  ]  |  ^  |   |  0  |  1  |  2  |  3  |  =  | NLCK |
 //                    |     |     |     |   |     |     |     |
                         bindings = <
-   &kp BSLH         &kp FSLH  &kp N7 &kp N8 &kp N9 &kp KP_MULTIPLY                &kp AMPS         &kp LPAR &kp RPAR  &kp EXCL         &khkp RALT N1   &trans       
-   &kp PRCNT        &kp MINUS &kp N4 &kp N5 &kp N6 &kp KP_PLUS                    &kp PIPE         &kp LBRC &kp RBRC  &kp QMARK        &khkp RALT FSLH &trans        
-   &am LCTRL EQUAL &kp N0    &kp N1 &kp N2 &kp N3 &kp DOT                        &kkp CARET SPACE &kp LBKT &kp RBKT  &kkp TILDE SPACE &pc   _ 250     &trans    
-   &trans          &trans              &trans                                     &trans           &trans             &trans
+   &kp BSLH         &kp FSLH  &kp N7 &kp N8 &kp N9 &kp KP_MULTIPLY                &kp AMPS         &kp LPAR &kp RPAR  &khkp RALT N1    &kp EXCL   &trans       
+   &kp PRCNT        &kp MINUS &kp N4 &kp N5 &kp N6 &kp KP_PLUS                    &kp PIPE         &kp LBRC &kp RBRC  &khkp RALT FSLH  &kp QMARK  &trans        
+   &am LCTRL EQUAL  &kp N0    &kp N1 &kp N2 &kp N3 &kp DOT                        &kkp CARET SPACE &kp LBKT &kp RBKT  &kp LT           &kp GT     &kkp TILDE SPACE    
+   &trans           &trans              &trans                                    &trans           &trans             &trans
                         >;
                 };
 
