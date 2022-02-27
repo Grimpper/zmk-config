@@ -1,0 +1,2 @@
+west build -p -d build/left -b nrfmicro_13 -- -DSHIELD=corne_left -DZMK_CONFIG="F:\dev\Corne-ble\zmk-config\config"
+west build -p -d build/right -b nrfmicro_13 -- -DSHIELD=corne_right -DZMK_CONFIG="F:\dev\Corne-ble\zmk-config\config"
