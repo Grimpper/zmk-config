@@ -66,7 +66,7 @@
    &kp TAB   &kp Q     &kp W     &kp E     &kp R     &kp T              &kp Y     &kp U     &kp I     &kp O     &kp P          &kp LGUI
    &kp LSHFT &kp A     &kp S     &kp D     &kp F     &kp G              &kp H     &kp J     &kp K     &kp L     &kkp SQT SPACE &kp RSHFT
    &kp LCTRL &kp Z     &kp X     &kp C     &kp V     &kp B              &kp N     &kp M     &kp COMMA &kp DOT   &kp SEMI       &am RCTRL UNDER
-   &mt LALT ESC        &lt NUM SPACE       &lt ARROW RET                &mt RALT CAPS       &kp BSPC            &mo FUNC            
+   &mt LALT ESC        &lt NUM SPACE       &lt ARROW RET                &mt RALT CAPS       &kp BSPC            &mo FUNC
                         >;
                 };
 
@@ -77,9 +77,9 @@
 // |      |     |  ~  |  [  |  ]  |  ^  |   |  0  |  1  |  2  |  3  |  =  | NLCK |
 //                    |     |     |     |   |     |     |     |
                         bindings = <
-   &kp BSLH         &kp FSLH  &kp N7 &kp N8 &kp N9 &kp KP_MULTIPLY                &kp AMPS         &kp LPAR &kp RPAR  &khkp RALT N1    &kp EXCL   &trans       
-   &kp PRCNT        &kp MINUS &kp N4 &kp N5 &kp N6 &kp KP_PLUS                    &kp PIPE         &kp LBRC &kp RBRC  &khkp RALT FSLH  &kp QMARK  &trans        
-   &am LCTRL EQUAL  &kp N0    &kp N1 &kp N2 &kp N3 &kp DOT                        &kkp CARET SPACE &kp LBKT &kp RBKT  &kp LT           &kp GT     &kkp TILDE SPACE    
+   &kp BSLH         &kp FSLH  &kp N7 &kp N8 &kp N9 &kp KP_MULTIPLY                &kp AMPS         &kp LPAR &kp RPAR  &khkp RALT N1    &kp EXCL   &trans
+   &kp PRCNT        &kp MINUS &kp N4 &kp N5 &kp N6 &kp KP_PLUS                    &kp PIPE         &kp LBRC &kp RBRC  &khkp RALT FSLH  &kp QMARK  &trans
+   &am LCTRL EQUAL  &kp N0    &kp N1 &kp N2 &kp N3 &kp DOT                        &kkp CARET SPACE &kp LBKT &kp RBKT  &kp LT           &kp GT     &kkp TILDE SPACE
    &trans           &trans              &trans                                    &trans           &trans             &trans
                         >;
                 };
@@ -106,7 +106,7 @@
 //                    |     |     |     |   |     |     |     |
                         bindings = <
    &trans    &trans    &trans    &pc 0 128  &trans   &trans             &trans    &kp F7    &kp F8    &kp F9    &kp F10   &trans
-   &trans    &kp AT    &kp DLLR  &kp KP_DOT &trans   &trans             &kp HASH  &kp F4    &kp F5    &kp F6    &kp F11   &trans
+   &trans    &kp AT    &kp DLLR  &kp KP_DOT &trans   &kp GRAVE          &kp HASH  &kp F4    &kp F5    &kp F6    &kp F11   &trans
    &trans    &trans    &trans    &kp CARET  &trans   &trans             &trans    &kp F1    &kp F2    &kp F3    &kp F12   &trans
    &trans              &trans               &trans                      &trans              &trans              &trans
                         >;
